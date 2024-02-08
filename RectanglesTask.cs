@@ -11,6 +11,7 @@ namespace Rectangles
             return (Math.Max(r1.Left, r2.Left) <= Math.Min(r1.Right, r2.Right)) &&
                 (Math.Max(r1.Top, r2.Top) <= Math.Min(r1.Bottom, r2.Bottom));
         }
+
         // Площадь пересечения прямоугольников
         public static int IntersectionSquare(Rectangle r1, Rectangle r2)
         {
